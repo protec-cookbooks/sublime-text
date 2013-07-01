@@ -29,5 +29,5 @@ end
 
 link "/usr/local/bin/sublime-text" do
   to "/opt/sublime-text/Sublime Text 2/sublime-text"
-  link-type :symbolic
+  link_type :symbolic
 end
