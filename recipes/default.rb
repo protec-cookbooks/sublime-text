@@ -14,6 +14,6 @@ remote_file "/tmp/sublime-text_build-3065_amd64.deb" do
 end
 
 dpkg_package "sublime-text" do
-  source "/tmp/sublime-text_build-3059_amd64.deb"
+  source "/tmp/sublime-text_build-3065_amd64.deb"
   action :install
 end
