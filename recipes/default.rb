@@ -7,13 +7,13 @@
 # All rights reserved - Do Not Redistribute
 #
 
-remote_file "/tmp/sublime-text_build-3065_amd64.deb" do
-  source "http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3065_amd64.deb"
+remote_file "/tmp/sublime-text_build-3083_amd64.deb" do
+  source "http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb"
   mode 0644
-  checksum "cd71f68a10f2b549788ca9b4a504aa596a3c2fff176982d819b82f5000ebc3b6"
+  checksum "8326870b9c4d18df2ee5f2225d3efbe0f72d957934f6c47e3cecdee135ab9a86"
 end
 
 dpkg_package "sublime-text" do
-  source "/tmp/sublime-text_build-3065_amd64.deb"
+  source "/tmp/sublime-text_build-3083_amd64.deb"
   action :install
 end
